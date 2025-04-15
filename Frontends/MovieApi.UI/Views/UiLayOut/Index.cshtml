@@ -1,0 +1,27 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+@await Component.InvokeAsync("_UiLayoutHeadComponentPartial")
+<body>
+	@await Component.InvokeAsync("_UiLayoutPreloaderComponentPartial")
+
+	@await Component.InvokeAsync("_UiLayoutLoginFormComponentPartial")
+
+	@await Component.InvokeAsync("_UiLayoutSignUpFormComponentPartial")
+
+	@await Component.InvokeAsync("_UiLayoutNavbarComponentPartial")
+	
+
+	@RenderBody()
+	salalm salalal
+
+	@await Component.InvokeAsync("_UiLayoutFooterComponentPartial")
+
+	@await Component.InvokeAsync("_UiLayoutScriptComponentPartial")
+
+</body>
+</html>

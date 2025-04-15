@@ -25,7 +25,6 @@ namespace MovieApi.Application.Features.Mediator.Handlers.TagHandlers
             return new GetTagByIdQueryResult
             {
                 Title = value.Title,
-                TagId=value.TagId
             };
         }
     }
